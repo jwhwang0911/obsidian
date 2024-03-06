@@ -1,0 +1,220 @@
+{
+  "main": {
+    "id": "8271c8c6e54e9235",
+    "type": "split",
+    "children": [
+      {
+        "id": "c48117f97ddb9e3e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef7647a0338e5561",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Generalized Least Squares Method.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "2ea01921885feb00",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f5d67d1f9ee229ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3791b6f5319f1265",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a234f43722d1b612",
+    "type": "split",
+    "children": [
+      {
+        "id": "0dce1ae09fccf700",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1a2e091194445497",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0c46dce920576096",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9de73c82674650b4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b448701133cdc56",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "852b75926f82e9ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "01d2b6d2f0757f87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0960aa077840f6ef",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Paper.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5e2fb76c2e28f1a7",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Paper.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "620cff477167394b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "d9ff94c7fd44a2ec",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Paper.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:퀵 스위처 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "random-note:랜덤 노트 열기": false,
+      "workspaces:작업 공간 레이아웃 관리": false
+    }
+  },
+  "active": "3791b6f5319f1265",
+  "lastOpenFiles": [
+    "Statistics/Generalized Least Squares Method.md",
+    "Paper.md",
+    "Gauss-Markov theroem.md",
+    "().md",
+    "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
+    "fonts",
+    "Spaces",
+    "Realtime_Denoising/Real-time Neural Radiance Cahcing for Path Tracing.md",
+    "Statistics",
+    "Realtime_Denoising/Realtime_Denoising.md",
+    "Realtime_Denoising/test.md",
+    "Adaptive_Sapling.md",
+    "Adaptive_Sapling 1.md",
+    "Rendering_Core/Rendering_Core.md",
+    "Rendering_Core/Adaptive_Sapling/Adaptive_Sapling.md",
+    "Adaptive_Sapling 2.md",
+    "Adaptive_Sapling",
+    "Rendering_Core/Adaptive_Sapling",
+    "Rendering_Core/.md",
+    "Realtime_Denoising",
+    "Offline_Denoising",
+    "Inverse_Rendering",
+    "Rendering_Core",
+    "Vault.md",
+    ".md",
+    "무제 파일 1.md",
+    "Spaces/Spaces.md",
+    "무제 파일.canvas",
+    "2024-02-26.md"
+  ]
+}
