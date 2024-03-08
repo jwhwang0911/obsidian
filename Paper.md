@@ -11,10 +11,19 @@ cssclasses:
 ---
 # 연구주제
 
-- [ ] generalized least squares (GLS) 
-- [ ] Self-Attention 매커니즘
+- [x] generalized least squares (GLS) <font color="#ff0000">[나중에 더 살펴봐야할 부분이 있음]</font>
+- [ ] Self-Attention
+	- [ ] Attention is all you need
+	- [ ] Uformer : A general u-shaped transformer for image restoration
+	- [ ] Show, attend and tell: Neural image caption generation with visual attention
+	- [ ] Monte carlo denoising via auxiliary feature guided self-attention
+	- [ ] Restormer: Efficient trnasformer for high-resolution image restoration
+	- [ ] Swinir: Image restoration using swin transformer
+	- [ ] Swin transformer: Hierarchical vision transformer using shifted windows
+	- [ ] Scaling local self-attention for parameter efficient visual backbones
+	- [ ] Pre-trained image processing transformer
 - [ ] Joint Self-Attention for MC denoising
-- [ ] Decombiner
+- [ ] Deep combiner
 - [ ] Nvidia ReSTIR
 - [ ] Shift mapping
 - [ ] CRN (참고용)
@@ -30,7 +39,7 @@ cssclasses:
 ```dataview
 TABLE 
 	without id
-	file.link as "논문", date
+	file.link as "논문", date, tags
 FROM "Statistics"
 SORT date
 ```
