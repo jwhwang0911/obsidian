@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "2ea01921885feb00",
+        "id": "f6c5720b18f9c7b7",
         "type": "tabs",
         "children": [
           {
-            "id": "f5d67d1f9ee229ec",
+            "id": "fcbccaf4e25b8616",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
+                "file": "Statistics/Attention is all you need.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "0b2bca57adee08c4",
+        "id": "dd54935560756025",
         "type": "tabs",
         "children": [
           {
-            "id": "fadcf7a895b66af3",
+            "id": "a932b235b4d125a3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Generalized Least Squares Method.md",
+                "file": "Paper.md",
                 "mode": "source",
                 "source": false
               }
@@ -91,8 +91,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -112,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
+                "file": "Paper.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
+                "file": "Paper.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -152,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md"
+                "file": "Paper.md"
               }
             }
           }
@@ -166,29 +165,36 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:퀵 스위처 열기": false,
-      "graph:그래프 뷰 열기": false,
-      "templates:템플릿 삽입": false,
-      "command-palette:명령어 팔레트 열기": false,
-      "random-note:랜덤 노트 열기": false,
-      "workspaces:작업 공간 레이아웃 관리": false
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "f5d67d1f9ee229ec",
+  "active": "a932b235b4d125a3",
   "lastOpenFiles": [
     "Statistics/Attention is all you need.md",
     "Statistics/Generalized Least Squares Method.md",
-    "Paper.md",
-    "[[.md",
+    "assets/image_20240311111549.png",
     "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
+    "Realtime_Denoising/Real-time Neural Radiance Cahcing for Path Tracing.md",
+    "Attention.md",
+    "Paper.md",
+    "Realtime_Denoising/test.md",
+    "assets/Pasted image 20240311111542.png",
+    "Statistics/attention.png",
+    "assets/스크린샷, 2024-03-11 11-07-56.png",
+    "assets/Pasted image 20240311110838.png",
+    "assets/Pasted image 20240311110802.png",
+    "[[.md",
     "Gauss-Markov theroem.md",
     "().md",
     "fonts",
     "Spaces",
-    "Realtime_Denoising/Real-time Neural Radiance Cahcing for Path Tracing.md",
     "Statistics",
     "Realtime_Denoising/Realtime_Denoising.md",
-    "Realtime_Denoising/test.md",
     "Adaptive_Sapling.md",
     "Adaptive_Sapling 1.md",
     "Rendering_Core/Rendering_Core.md",

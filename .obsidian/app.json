@@ -4,5 +4,8 @@
   "trashOption": "local",
   "alwaysUpdateLinks": true,
   "attachmentFolderPath": "assets",
-  "promptDelete": false
+  "promptDelete": false,
+  "showUnsupportedFiles": true,
+  "showLineNumber": false,
+  "focusNewTab": true
 }

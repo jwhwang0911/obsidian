@@ -2,11 +2,11 @@
   "obsidian-theme-toggler",
   "editing-toolbar",
   "make-md",
-  "obsidian-image-toolkit",
   "dataview",
   "obsidian-outliner",
   "obsidian-minimal-settings",
   "obsidian-banners",
   "obsidian-sortable",
-  "obsidian-hover-editor"
+  "obsidian-hover-editor",
+  "obsidian-image-toolkit"
 ]

@@ -29,7 +29,7 @@
   "folderIndentationLines": true,
   "revealActiveFile": false,
   "spacesStickers": true,
-  "spaceRowHeight": 29,
+  "spaceRowHeight": null,
   "spacesDisablePatch": false,
   "folderNoteInsideFolder": true,
   "sidebarTabs": true,

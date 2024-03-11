@@ -1,0 +1,56 @@
+/* this sets underline, we over-ride to NONE as needed for internal links 
+*/
+body:not(.links-ext-on) .cm-link .cm-underline, body:not(.links-ext-on) .cm-s-obsidian span.cm-url, body:not(.links-ext-on) .external-link, body:not(.links-int-on) .cm-hmd-internal-link .cm-underline, body:not(.links-int-on) .cm-s-obsidian span.cm-hmd-internal-link:hover, body:not(.links-int-on) .markdown-preview-view .internal-link, body:not(.links-int-on) a.internal-link, body:not(.links-int-on) a[href*="obsidian://"]
+{
+  text-decoration: none;
+}
+/* preview */
+.markdown-preview-view .internal-link {
+  /* text-decoration: none !important; */
+  text-decoration-style: none;
+}
+/* live preview */
+.cm-hmd-internal-link .cm-underline {
+  /* text-decoration: none !important; */
+  text-decoration-style: none;
+}
+/* remove the icon from external links */
+body .external-link {
+  background-image: none;
+}
+
+.dashboard .markdown-preview-section {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Underline H1 heading in Edit mode */
+.cm-s-obsidian .HyperMD-header-1{
+  border-bottom: 0.5px solid var(--text-faint) !important;
+}
+.cm-s-obsidian .HyperMD-header-2{
+  border-bottom: 0.5px solid var(--text-faint) !important;
+}
+/* ==========headings======= */
+/* Underline = border-bottom */
+.markdown-preview-view h1 {
+  border-bottom: 0.5px solid var(--text-faint);
+}
+.markdown-preview-view h2 {
+  border-bottom: 0.5px solid var(--text-faint);
+}
+
+img[alt*="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  /* image right align */
+  img[alt*="right"] {
+    float:right;
+    clear:right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }

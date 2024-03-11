@@ -1,5 +1,13 @@
 {
   "accentColor": "",
-  "cssTheme": "",
-  "theme": "moonstone"
+  "cssTheme": "Things",
+  "theme": "moonstone",
+  "enabledCssSnippets": [
+    "image_align",
+    "width_controller"
+  ],
+  "baseFontSize": 19,
+  "baseFontSizeAction": false,
+  "interfaceFontFamily": "Arial",
+  "textFontFamily": "Arial"
 }
