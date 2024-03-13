@@ -1,14 +1,23 @@
 /* Underline H1 heading in Edit mode */
 .cm-s-obsidian .HyperMD-header-1{
-    border-bottom: 0.5px solid var(--text-faint) !important;
-  }
-  .cm-s-obsidian .HyperMD-header-2{
-    border-bottom: 0.5px solid var(--text-faint) !important;
-  }
+  border-bottom: 0.5px solid var(--text-faint) !important;
+}
+
+.cm-s-obsidian .HyperMD-header-2{
+  border-bottom: 0.5px solid var(--text-faint) !important;
+}
   
-  .cm-s-obsidian .HyperMD-header-3{
-    border-bottom: 0.5px solid var(--text-faint) !important;
-  }
+.cm-s-obsidian .HyperMD-header-3{
+  border-bottom: 0.5px solid var(--text-faint) !important;
+}
+
+.cm-s-obsidian .HyperMD-header-4{
+  border-bottom: 0.5px solid var(--text-faint) !important;
+}
+
+.cm-s-obsidian .HyperMD-header-5{
+  border-bottom: 0.5px solid var(--text-faint) !important;
+}
   /* ==========headings======= */
   /* Underline = border-bottom */
   .markdown-preview-view h1 {
@@ -19,5 +28,13 @@
   }
   
   .markdown-preview-view h3 {
+    border-bottom: 0.5px solid var(--text-faint);
+  }
+
+  .markdown-preview-view h4 {
+    border-bottom: 0.5px solid var(--text-faint);
+  }
+
+  .markdown-preview-view h5 {
     border-bottom: 0.5px solid var(--text-faint);
   }

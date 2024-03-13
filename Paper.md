@@ -8,6 +8,7 @@ cssclasses:
   - table-small
   - col-lines
   - row-lines
+sticker: emoji//1f4d3
 ---
 # BackGround Study
 
@@ -16,7 +17,7 @@ cssclasses:
 	- [ ] Attention is all you need
 	- [ ] Uformer : A general u-shaped transformer for image restoration
 	- [ ] Show, attend and tell: Neural image caption generation with visual attention
-	- [ ] Monte carlo denoising via auxiliary feature guided self-attention
+	- [x] Monte carlo denoising via auxiliary feature guided self-attention
 	- [ ] Restormer: Efficient trnasformer for high-resolution image restoration
 	- [ ] Swinir: Image restoration using swin transformer
 	- [ ] Swin transformer: Hierarchical vision transformer using shifted windows
