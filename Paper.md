@@ -9,9 +9,9 @@ cssclasses:
   - col-lines
   - row-lines
 ---
-# 연구주제
+# BackGround Study
 
-- [x] generalized least squares (GLS) <font color="#ff0000">[나중에 더 살펴봐야할 부분이 있음]</font>
+- [ ] generalized least squares (GLS) <font color="#ff0000">[나중에 더 살펴봐야할 부분이 있음]</font>
 - [ ] Self-Attention
 	- [ ] Attention is all you need
 	- [ ] Uformer : A general u-shaped transformer for image restoration

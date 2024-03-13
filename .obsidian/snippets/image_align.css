@@ -24,21 +24,7 @@ body .external-link {
   max-width: 100% !important;
 }
 
-/* Underline H1 heading in Edit mode */
-.cm-s-obsidian .HyperMD-header-1{
-  border-bottom: 0.5px solid var(--text-faint) !important;
-}
-.cm-s-obsidian .HyperMD-header-2{
-  border-bottom: 0.5px solid var(--text-faint) !important;
-}
-/* ==========headings======= */
-/* Underline = border-bottom */
-.markdown-preview-view h1 {
-  border-bottom: 0.5px solid var(--text-faint);
-}
-.markdown-preview-view h2 {
-  border-bottom: 0.5px solid var(--text-faint);
-}
+
 
 img[alt*="center"] {
     display: block;

@@ -10,7 +10,7 @@ cssclasses:
 
 ## 0. Abstract
 Extended neural GPU, ByteNet, ConvS2S와 같은 convolution network의 경우, input과 output의 길이차이가 많아짐에 따라 연산 횟수가 점점 증가하게 된다. 연산횟수는 model의 구조에 따라 달라지지만, 대부분의 경우 linear하게 혹은 logarithmic하게 증가하게된다. 하지만, <span style="background:#fff88f">Transformer</span>에서는 <span style="background:#fff88f">constant number</span>로 결정된다. [[Attention is all you need#1. 1. Attention|Attention]]의 averaging attention-weighted positions로 인해 유효해상도(Effective resolution)이 감소하지만, 이는 Multi-Head Attention을 통해 대응할 수 있다.
-
+또한, NLP에서 문장 (sequence)에서 단어간의 연관성이 있는데, 모든 <span style="background:#fff88f">단어들 간의 관계성을 파악하기 위해서 각 단어에 대한 전파력이 앞으로만 전달되는 것이 아닌 전체적으로 전파되도록 Attention</span>을 활용하는 것이 효과적이다.
 # 1. Model Architechture
 
 ![center|500](image_20240311111549.png)
@@ -20,8 +20,20 @@ Extended neural GPU, ByteNet, ConvS2S와 같은 convolution network의 경우, i
 Figure 1.에서 [[Attention is all you need]]는 stacked self-attention, point-wise, fully connected layer를 활용하였으며, 크게 다를 것 없지만, self-attention 매커니즘을 적용하였다.
 
 ## 1. 1. Attention
-Attention 함수의 기본적인 구조는 <span style="background:#fff88f"><font color="#ff0000">query, key-value pair를 output과 mapping</font></span>하는 것에 있다. Output은 value들의 weighted sum으로 해당 wieght들은 query와 key에 특정 compatibility function을 적용한 결과이다. 해당 내용은 
+Attention 함수의 기본적인 구조는 <span style="background:#fff88f"><font color="#ff0000">query, key-value pair를 output과 mapping</font></span>하는 것에 있다. Output은 value들의 weighted sum으로 해당 wieght들은 query와 key에 특정 compatibility function을 적용한 결과이다.
+$$ Attention(Q, K, V) = softmax(\frac {QK^T}{\sqrt{d_k}}) \cdot V$$
+$$ d_k : dim\ of\ Query\  \& \ Key$$
+*Attention* function을 살펴보면, Q와 K를 matmul하여 softmax라는 compatibilitiy funcion을 적용한 후, V와 matmul하였다. 대체로, 2가지 방식의 attention이 사용되었는데, <font color="#0070c0">Additive attention</font>과 <font color="#0070c0">Dot-product attention</font>이 있다. Dot-product attention은 Additive와 이론적으로 동일한 complexity를 가지지만, <span style="background:rgba(255, 183, 139, 0.55)">dot-product attention이 실험에서 훨씬 빠르고, space efficiency가 높고, matrix multiplication code로 최적화가 잘된다는 장점이 있다.</span> 
+### Effect of $d_k$
+*softmax function*을 보면 내부에 $1 / \sqrt{d_k}$ 가 scaling factor로 사용된다. $d_k$ 가 작은 값을 때는 dot-product attention과 additive가 비슷하게 작동한다. 하지만, $d_k$ 가 큰 값을 가질 때, 즉, Query와 Key matrix가 높은 dimension을 가질 때는 softmax가 대부분이 절댓값이 큰값을 가질 확률이 높아져 <font color="#de7802">softmax가 extremely small gradient</font>값을 가지게 된다. 이에 대응하기 위해 dot product를 $1 / d_k$ 로 scaling 해준다. 이 연산으로 인해 값들이 큰값이 아닌 0 근처, 즉 <font color="#de7802">softmax함수의 gradient가 0이 아닌 값을 가지는 부분으로 모아주기 때문에 학습에 용이해지는 효과를 가질 수 있다.</font>
+[참고 : Gradient of Softmax](https://velog.io/@hjk1996/Cross-Entropy%EC%99%80-Softmax%EC%9D%98-%EB%AF%B8%EB%B6%84)
+##### <span style="background:rgba(173, 239, 239, 0.55)">왜 $d_k$ 가 크면, dot product의 결과도 큰 값을 가질까?</span>
+이 논문에서 Query와 Key의 (예를 들어, 열벡터나 행벡터) *q*와 *k*의 각 요소들을 independent random variable ~ $N (0, 1)$ 로 가정하였다. 따라서 $q \cdot k = \sum\limits_{i=1}^{d_k} q_i k_i$ 는 $N(0, d_k)$ 분포를 따른다. 따라서 $d_k$ 가 커짐에 따라 값들의 분포가 넓어져 큰 값을 가질 수 있는 가능성이 생기게 된다.
 
+
+## 1. 2. Multi-Head Attention
+[[Attention is all you need#1. 1. Attention|Attention]] 은 single attention function
+![center|400](image_20240313155043.png)
 
 
 ## Hovers

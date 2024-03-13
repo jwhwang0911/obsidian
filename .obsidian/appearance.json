@@ -1,10 +1,11 @@
 {
   "accentColor": "",
-  "cssTheme": "Things",
+  "cssTheme": "",
   "theme": "moonstone",
   "enabledCssSnippets": [
     "image_align",
-    "width_controller"
+    "width_controller",
+    " header"
   ],
   "baseFontSize": 19,
   "baseFontSizeAction": false,
