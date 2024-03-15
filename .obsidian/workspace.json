@@ -20,24 +20,6 @@
             }
           }
         ]
-      },
-      {
-        "id": "b62fac22d6698093",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "41b9874dade26d6c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
       }
     ],
     "direction": "vertical"
@@ -91,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -179,6 +160,7 @@
     "Paper.md",
     "Statistics/Attention is all you need.md",
     "Statistics/Generalized Least Squares Method.md",
+    "Vision",
     "assets/image_20240313155043.png",
     "Attention.md",
     "assets/image_20240311111549.png",
@@ -210,7 +192,6 @@
     "Inverse_Rendering",
     "Rendering_Core",
     "Vault.md",
-    ".md",
     "무제 파일 1.md",
     "Spaces/Spaces.md",
     "무제 파일.canvas",

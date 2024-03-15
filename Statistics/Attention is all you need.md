@@ -9,6 +9,7 @@ cssclasses:
 ---
 ## Keywords
 - [[Attention is all you need#Effect of Multi-Head Attention|Effect of Multi-Head Attention]]
+- [[Attention is all you need#1. 1. 1 추가적으로 정리해야할 것. Attention이 어떻게 작동하는가|추가 정리]]
 
 
 ## 0. Abstract
@@ -34,6 +35,10 @@ $$ d_k : dim\ of\ Query\  \& \ Key$$
 이 논문에서 Query와 Key의 (예를 들어, 열벡터나 행벡터) *q*와 *k*의 각 요소들을 independent random variable ~ $N (0, 1)$ 로 가정하였다. 따라서 $q \cdot k = \sum\limits_{i=1}^{d_k} q_i k_i$ 는 $N(0, d_k)$ 분포를 따른다. 따라서 $d_k$ 가 커짐에 따라 값들의 분포가 넓어져 큰 값을 가질 수 있는 가능성이 생기게 된다.
 
 
+### 1. 1. 1 추가적으로 정리해야할 것. Attention이 어떻게 작동하는가
+https://cpm0722.github.io/pytorch-implementation/transformer 보고 정리 + 구현해보자 (집에서 구현해보자 이건)
+
+
 ## 1. 2. Multi-Head Attention
 [[Attention is all you need#1. 1. Attention|Attention]] 은 single attention function으로 $d_{model}$ 의 차원을 가진다. 하지만 이 대신, V, K, Q에 학습된 Weight들을 곱하여 linearly projection하게 된다. 대신, $d_{model} / h$ 로 header의 수만큼 각각의 Dot-Product Attention의 computational cost를 Single attention function을 수행한 것과 유사하게 맞춰줄 수 있다.
 ![center|400](image_20240313155043.png)
@@ -49,3 +54,7 @@ eq 1. 은 위의 Fig에서 마지막 Concat과 Linear에 관련된 수식으로,
 - Parallelization (계산 효율성 ⬆️)
 - <span style="background:rgba(255, 183, 139, 0.55)">Jointly combine infor. from 각각의 subspaces (linear projection)의 다른 representation</span>
 
+##### \[Optional]
+이후에 논문에서 기술된 Position wise FeedForward Network나 Embeddings and Softmax의 경우 간단하게 정리
+\- Feed Forward Network : input and output ($d_{model} = 512$) and hidden layer as 512
+\- Activation Function in FFN : 
