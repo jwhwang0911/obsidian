@@ -13,13 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Attention is all you need.md",
+                "file": "Vision/Denoising Diffusion Probabilistic Model.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ]
+      },
+      {
+        "id": "e8af212bbb7e595a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ab2535166cf30920",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Paper.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e47bcf6c3dbaa7dc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Statistics/Attention is all you need.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Statistics/Attention is all you need.md",
+                "file": "Vision/Denoising Diffusion Probabilistic Model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Statistics/Attention is all you need.md",
+                "file": "Vision/Denoising Diffusion Probabilistic Model.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Statistics/Attention is all you need.md"
+                "file": "Vision/Denoising Diffusion Probabilistic Model.md"
               }
             }
           }
@@ -157,8 +188,10 @@
   },
   "active": "b02822e6154718a0",
   "lastOpenFiles": [
-    "Paper.md",
     "Statistics/Attention is all you need.md",
+    "Vision/Denoising Diffusion Probabilistic Model.md",
+    "Paper.md",
+    "assets/image_20240322170201.png",
     "Statistics/Generalized Least Squares Method.md",
     "Vision",
     "assets/image_20240313155043.png",

@@ -57,4 +57,4 @@ eq 1. 은 위의 Fig에서 마지막 Concat과 Linear에 관련된 수식으로,
 ##### \[Optional]
 이후에 논문에서 기술된 Position wise FeedForward Network나 Embeddings and Softmax의 경우 간단하게 정리
 \- Feed Forward Network : input and output ($d_{model} = 512$) and hidden layer as 512
-\- Activation Function in FFN : 
+\- Activation Function in FFN

@@ -28,7 +28,12 @@ sticker: emoji//1f4d3
 	- [ ] Scaling local self-attention for parameter efficient visual backbones
 	- [ ] Pre-trained image processing transformer
 - [ ] Joint Self-Attention for MC denoising
-- [ ] Deep combiner
+- [ ] Diffusion
+	- [ ] Denoising Diffusion Probabilistic Model
+	- [ ] Improved Denoising Diffusion Probabilistic Models
+	- [ ] Denoising Diffusion Restoration Model
+	- [ ] A Unified Conditional Framework for Diffusion-based Image Restoration
+	- [ ] Scalable Diffusion Models with Transformers
 - [ ] Nvidia ReSTIR
 - [ ] Shift mapping
 - [ ] CRN (참고용)
@@ -60,21 +65,23 @@ FROM "Rendering_Core"
 SORT date
 ```
 
-## 🟧 Inverse Rendering
+## 🟧 Vision
 ```dataview
 TABLE 
 	without id
 	file.link as "논문", date, tags
-FROM "Inverse_Rendering"
+FROM "Vision"
+WHERE contains(tags, "Vision")
 SORT date
 ```
 
-## 🟨 Offline Denoising
+## 🟨 Diffusion
 ```dataview
 TABLE 
 	without id
 	file.link as "논문", date, tags
-FROM "Offline Denoising"
+FROM "Vision"
+WHERE contains(tags, "Diffusion")
 SORT date
 ```
 
