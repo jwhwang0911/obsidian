@@ -9,8 +9,8 @@ cssclasses:
 ### **Day 1: 환경 설정 및 기본 개념 학습**
 #### **목표: 학습 환경 설정 및 CUDA와 PyTorch 기본 개념 이해**
 - **설치 및 환경 설정**
-    - [x] Visual Studio Code, CUDA Toolkit, PyTorch, CMake 설치 및 설정
-    - [x] VSCode 확장 프로그램 설치 (C/C++, CUDA C++, Code Runner 등)
+    - [ ] Visual Studio Code, CUDA Toolkit, PyTorch, CMake 설치 및 설정
+    - [ ] VSCode 확장 프로그램 설치 (C/C++, CUDA C++, Code Runner 등)
 - **기본 개념 학습**
     - [ ] CUDA 개념 이해: GPU 아키텍처, CUDA 프로그래밍 모델
     - [ ] PyTorch 기본 개념 이해: Tensor, Autograd, Neural Networks

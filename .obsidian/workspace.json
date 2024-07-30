@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Kernelized Attention.md",
+                "file": "Diffusion/DDRM Code Review.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cuda/Plan.md",
+                "file": "Cuda/Day 2..md",
                 "mode": "source",
                 "source": false
               }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuda/Plan.md",
+                "file": "Cuda/Day 2..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuda/Plan.md",
+                "file": "Cuda/Day 2..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuda/Plan.md"
+                "file": "Cuda/Day 2..md"
               }
             }
           }
@@ -170,22 +170,24 @@
   },
   "active": "c0a7874df3ab0f27",
   "lastOpenFiles": [
-    "Statistics/Kernelized Attention.md",
+    "Cuda/Day 1. .md",
+    "Cuda/Day 2..md",
     "Cuda/Plan.md",
-    "Cuda",
+    "Diffusion/DDRM Code Review.md",
+    "Diffusion/Graphics Diffusion usage.md",
     "Statistics/Attention is all you need.md",
     "Statistics/Generalized Least Squares Method.md",
-    "Paper.md",
+    "Statistics/Kernelized Attention.md",
     "Statistics/Quasi - Monte Carlo Sampling.md",
+    "Cuda",
+    "Paper.md",
     "Spaces",
     "Research/Research.md",
     "Vision/Denoising Diffusion Probabilistic Model.md",
     "Research",
     "Working process.md",
-    "Diffusion/DDRM Code Review.md",
     "Obsidian_Format",
     "Vision/Patch Diffusion.md",
-    "Diffusion/Graphics Diffusion usage.md",
     "Diffusion",
     "Vision/.md",
     "Offline_Denoising/Denoising Monte Carlo Renders With Diffusion Models.md",
@@ -210,8 +212,6 @@
     "Statistics",
     "Adaptive_Sapling.md",
     "Adaptive_Sapling 1.md",
-    "Rendering_Core/Rendering_Core.md",
-    "Rendering_Core/Adaptive_Sapling/Adaptive_Sapling.md",
     "Adaptive_Sapling",
     "Rendering_Core/Adaptive_Sapling",
     "무제 파일.canvas"
