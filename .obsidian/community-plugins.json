@@ -3,12 +3,12 @@
   "editing-toolbar",
   "make-md",
   "dataview",
-  "obsidian-outliner",
-  "obsidian-minimal-settings",
   "obsidian-banners",
   "obsidian-sortable",
-  "obsidian-hover-editor",
   "obsidian-image-toolkit",
+  "obsidian-icon-shortcodes",
   "obsidian-image-caption",
-  "obsidian-icon-shortcodes"
+  "obsidian-hover-editor",
+  "code-styler",
+  "obsidian-outliner"
 ]

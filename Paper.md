@@ -10,40 +10,33 @@ cssclasses:
   - row-lines
 sticker: emoji//1f4d3
 ---
-## <font color="#ff0000">⚠논문 읽을 때, 식의 의미를 파악하면서 읽자⚠️ </font>
-잘 했으면 서 왜 안해!
-
-
 # BackGround Study
+- [ ] Monte Carlo and Quasi-Monte Carlo Sampling
+	- [x] Monte Carlo Method
+	- [x] Pseudorandom Number Generators
+	- [x] Variance Reduction
+	- [ ] Quasi-Monte Carlo Construction
+		- [x] Introduction
+		- [x] Main Constructions : basic principles
+		- [x] Lattices
+		- [ ] Digital nets and sequences - Remain Later
+			- [x] Introduction
+			- [x] Sobol' Sequence
+			- [ ] Faure sequence
+			- [ ] Niederreiter sequences
+			- [ ] Improvements to the original constructions of Halton, Sobol', Niederreiter, and Faure
+			- [ ] Digital net constructions and extensions
+		- [ ] Recurrence-based point sets
+		- [ ] Quality measures
+			- [ ] Discrepancy and related measures
+			- [ ] Criteria based on Fourier and Walsh decompositions
+			- [ ] Motivation for going beyond error bounds
+	- [x] Markov Chain Monte Carlo (MCMC) - 대강 살펴봄
+- [ ] Metropolis-Hastings algorithm \[PBRT]
+- [ ] "Temporally Stable Metropolis Light Transport Denoising using Recurrent Transformer Blocks", **SIG24**
+- [ ] MLT (metroplis Light transport) ; Correlated Image
 
-- [ ] generalized least squares (GLS) <font color="#ff0000">[나중에 더 살펴봐야할 부분이 있음]</font>
-- [ ] Self-Attention
-	- [ ] Attention is all you need
-	- [ ] Uformer : A general u-shaped transformer for image restoration
-	- [ ] Show, attend and tell: Neural image caption generation with visual attention
-	- [x] Monte carlo denoising via auxiliary feature guided self-attention
-	- [ ] Restormer: Efficient trnasformer for high-resolution image restoration
-	- [ ] Swinir: Image restoration using swin transformer
-	- [ ] Swin transformer: Hierarchical vision transformer using shifted windows
-	- [ ] Scaling local self-attention for parameter efficient visual backbones
-	- [ ] Pre-trained image processing transformer
-- [ ] Joint Self-Attention for MC denoising
-- [ ] Diffusion
-	- [ ] Denoising Diffusion Probabilistic Model
-	- [ ] Improved Denoising Diffusion Probabilistic Models
-	- [ ] Denoising Diffusion Restoration Model
-	- [ ] A Unified Conditional Framework for Diffusion-based Image Restoration
-	- [ ] Scalable Diffusion Models with Transformers
-- [ ] Nvidia ReSTIR
-- [ ] Shift mapping
-- [ ] CRN (참고용)
-
-
-> 대충 내가 이해한 주제는
-> "Independent Path tracing이 아니라 (pixel이 서로 independent) shift mapping 같이 correlation을 줘서 variance를 낮춘 scene에서 denoising 하는건 어떰?"
-> "현재 Attention에서는 softmax function을 사용해서 Negative correlation의 경우 고려하지 못하는 경우도 있음. 만약 Positive Corr있으면 Weight이 양수이면 안될 것 같은데"
-
-1. 단순하게 correlation map을 사용하면? => 너무 무거움
+# Research
 
 
 ## 🎯 Statistics & Deep Learning

@@ -3,9 +3,9 @@
   "cssTheme": "",
   "theme": "moonstone",
   "enabledCssSnippets": [
+    " header",
     "image_align",
-    "width_controller",
-    " header"
+    "width_controller"
   ],
   "baseFontSize": 19,
   "baseFontSizeAction": false,

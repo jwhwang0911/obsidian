@@ -4,46 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "6a33f5d5691bc8e0",
+        "id": "b6a30c8992bf3a87",
         "type": "tabs",
         "children": [
           {
-            "id": "b02822e6154718a0",
+            "id": "b83d621fd78b6578",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vision/Denoising Diffusion Probabilistic Model.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e8af212bbb7e595a",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ab2535166cf30920",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Paper.md",
+                "file": "Statistics/Kernelized Attention.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e47bcf6c3dbaa7dc",
+            "id": "c0a7874df3ab0f27",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Statistics/Attention is all you need.md",
+                "file": "Cuda/Plan.md",
                 "mode": "source",
                 "source": false
               }
@@ -124,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vision/Denoising Diffusion Probabilistic Model.md",
+                "file": "Cuda/Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vision/Denoising Diffusion Probabilistic Model.md",
+                "file": "Cuda/Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vision/Denoising Diffusion Probabilistic Model.md"
+                "file": "Cuda/Plan.md"
               }
             }
           }
@@ -186,20 +168,36 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b02822e6154718a0",
+  "active": "c0a7874df3ab0f27",
   "lastOpenFiles": [
+    "Statistics/Kernelized Attention.md",
+    "Cuda/Plan.md",
+    "Cuda",
     "Statistics/Attention is all you need.md",
-    "Vision/Denoising Diffusion Probabilistic Model.md",
-    "Paper.md",
-    "assets/image_20240322170201.png",
     "Statistics/Generalized Least Squares Method.md",
+    "Paper.md",
+    "Statistics/Quasi - Monte Carlo Sampling.md",
+    "Spaces",
+    "Research/Research.md",
+    "Vision/Denoising Diffusion Probabilistic Model.md",
+    "Research",
+    "Working process.md",
+    "Diffusion/DDRM Code Review.md",
+    "Obsidian_Format",
+    "Vision/Patch Diffusion.md",
+    "Diffusion/Graphics Diffusion usage.md",
+    "Diffusion",
+    "Vision/.md",
+    "Offline_Denoising/Denoising Monte Carlo Renders With Diffusion Models.md",
+    "assets/image_20240322170201.png",
+    "Realtime_Denoising/test.md",
+    "Realtime_Denoising/Realtime_Denoising.md",
+    "Realtime_Denoising/Real-time Neural Radiance Cahcing for Path Tracing.md",
+    "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
     "Vision",
     "assets/image_20240313155043.png",
     "Attention.md",
     "assets/image_20240311111549.png",
-    "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
-    "Realtime_Denoising/Real-time Neural Radiance Cahcing for Path Tracing.md",
-    "Realtime_Denoising/test.md",
     "assets/Pasted image 20240311111542.png",
     "Statistics/attention.png",
     "assets/스크린샷, 2024-03-11 11-07-56.png",
@@ -209,25 +207,13 @@
     "Gauss-Markov theroem.md",
     "().md",
     "fonts",
-    "Spaces",
     "Statistics",
-    "Realtime_Denoising/Realtime_Denoising.md",
     "Adaptive_Sapling.md",
     "Adaptive_Sapling 1.md",
     "Rendering_Core/Rendering_Core.md",
     "Rendering_Core/Adaptive_Sapling/Adaptive_Sapling.md",
-    "Adaptive_Sapling 2.md",
     "Adaptive_Sapling",
     "Rendering_Core/Adaptive_Sapling",
-    "Rendering_Core/.md",
-    "Realtime_Denoising",
-    "Offline_Denoising",
-    "Inverse_Rendering",
-    "Rendering_Core",
-    "Vault.md",
-    "무제 파일 1.md",
-    "Spaces/Spaces.md",
-    "무제 파일.canvas",
-    "2024-02-26.md"
+    "무제 파일.canvas"
   ]
 }
