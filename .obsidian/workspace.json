@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Diffusion/DDRM Code Review.md",
+                "file": "Cuda/Day 3..md",
                 "mode": "source",
                 "source": false
               }
@@ -30,9 +30,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ad6fd2491c146d3e",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuda/Day 2..md",
+                "file": "Cuda/Day 3..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuda/Day 2..md",
+                "file": "Cuda/Day 3..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Cuda/Day 2..md"
+                "file": "Cuda/Day 3..md"
               }
             }
           }
@@ -168,12 +177,13 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "c0a7874df3ab0f27",
+  "active": "b83d621fd78b6578",
   "lastOpenFiles": [
-    "Cuda/Day 1. .md",
-    "Cuda/Day 2..md",
     "Cuda/Plan.md",
+    "Cuda/Day 3..md",
     "Diffusion/DDRM Code Review.md",
+    "Cuda/Day 2..md",
+    "Cuda/Day 1. .md",
     "Diffusion/Graphics Diffusion usage.md",
     "Statistics/Attention is all you need.md",
     "Statistics/Generalized Least Squares Method.md",
@@ -211,7 +221,6 @@
     "fonts",
     "Statistics",
     "Adaptive_Sapling.md",
-    "Adaptive_Sapling 1.md",
     "Adaptive_Sapling",
     "Rendering_Core/Adaptive_Sapling",
     "무제 파일.canvas"
