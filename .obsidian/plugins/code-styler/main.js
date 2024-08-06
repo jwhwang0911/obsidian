@@ -2355,6 +2355,7 @@ var PRISM_LANGUAGES = {
   "cs": "C#",
   "dotnet": "C#",
   "cpp": "C++",
+  "cuda":"cuda",
   "cfscript": "CFScript",
   "cfc": "CFScript",
   "cil": "CIL",
@@ -3488,6 +3489,13 @@ var LANGUAGES = {
       "#"
     ]
   },
+  "cuda":{
+    colour: "#984c93",
+    icon: '<title>file_type_cpp</title><path d="M14.742,24.047a10.242,10.242,0,0,1-4.673.919A7.628,7.628,0,0,1,4.155,22.62,8.876,8.876,0,0,1,2,16.369,9.476,9.476,0,0,1,4.422,9.621a8.216,8.216,0,0,1,6.285-2.588,11.151,11.151,0,0,1,4.035.641v3.761A6.839,6.839,0,0,0,11,10.395,4.813,4.813,0,0,0,7.288,11.93a5.9,5.9,0,0,0-1.413,4.159A5.8,5.8,0,0,0,7.209,20.1a4.57,4.57,0,0,0,3.59,1.493,7.319,7.319,0,0,0,3.943-1.113Z" style="fill:#984c93"/><polygon points="17.112 14.829 17.112 12.485 19.456 12.485 19.456 14.829 21.8 14.829 21.8 17.172 19.456 17.172 19.456 19.515 17.112 19.515 17.112 17.172 14.77 17.172 14.77 14.828 17.112 14.829" style="fill:#984c93"/><polygon points="25.313 14.829 25.313 12.485 27.657 12.485 27.657 14.829 30 14.829 30 17.172 27.657 17.172 27.657 19.515 25.313 19.515 25.313 17.172 22.971 17.172 22.971 14.828 25.313 14.829" style="fill:#984c93"/>',
+    inlineComment: [
+      "//"
+    ]
+  },
   "Q (kdb+ database)": {
     colour: "#1e78b3",
     icon: '<path d="M20.092,29V19.682A6.953,6.953,0,0,1,17.7,21.645a6.743,6.743,0,0,1-3.089.724A6.557,6.557,0,0,1,9.413,20,11.081,11.081,0,0,1,7,12.475,10.033,10.033,0,0,1,9.264,5.5,7.251,7.251,0,0,1,14.874,3a6.266,6.266,0,0,1,3.2.785,7.329,7.329,0,0,1,2.4,2.373V3.419H25V29Zm.157-16.542a6.492,6.492,0,0,0-1.16-4.232,3.634,3.634,0,0,0-2.905-1.387,3.742,3.742,0,0,0-2.975,1.413,6.881,6.881,0,0,0-1.2,4.485,6.767,6.767,0,0,0,1.152,4.406A3.593,3.593,0,0,0,16.009,18.5a3.786,3.786,0,0,0,2.966-1.518A6.889,6.889,0,0,0,20.249,12.458Z" style="fill:#1e78b3"/>'
@@ -3762,7 +3770,7 @@ var LANGUAGES = {
   }
 };
 var EXECUTE_CODE_LANGUAGE_ALIASES = ["javascript", "typescript", "bash", "csharp", "wolfram", "nb", "wl", "hs", "py", "scpt"];
-var EXECUTE_CODE_CANONICAL_LANGUAGES = ["js", "ts", "cs", "lean", "lua", "python", "cpp", "prolog", "shell", "groovy", "r", "go", "rust", "java", "powershell", "kotlin", "mathematica", "haskell", "scala", "racket", "fsharp", "c", "dart", "ruby", "batch", "sql", "octave", "maxima", "applescript"];
+var EXECUTE_CODE_CANONICAL_LANGUAGES = ["js", "ts", "cs", "lean", "lua", "python", "cpp","cuda", "prolog", "shell", "groovy", "r", "go", "rust", "java", "powershell", "kotlin", "mathematica", "haskell", "scala", "racket", "fsharp", "c", "dart", "ruby", "batch", "sql", "octave", "maxima", "applescript"];
 var EXECUTE_CODE_SUPPORTED_LANGUAGES = [...EXECUTE_CODE_LANGUAGE_ALIASES, ...EXECUTE_CODE_CANONICAL_LANGUAGES];
 
 // src/SettingsTab.ts

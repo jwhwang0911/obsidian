@@ -29,6 +29,29 @@ cssclasses:
 - **Register**: 각 스레드가 사용하는 가장 빠른 메모리입니다.
 - **Constant and Texture Memory**: 읽기 전용 메모리로, 빠른 접근을 제공합니다.
 
+#### Host(CPU) to Device(GPU) 메모리 할당 및 연산
+
+-  `{c}cudaMalloc(float **ptr, size_t size)` : 포인터의 주소와 size인자를 받아 포인터에 **Device** 메모리를 할당해주는 함수
+- `{c} cudaMemcpy(void *dst, const void *src, size_t count, cudaMemcpyKind kind)` : **src**의 값을 모두 **dst**로 **count** 만큼 보내주는 함수
+	 ```C
+enum __device_builtin__ cudaMemcpyKind
+{
+
+	cudaMemcpyHostToHost = 0, /**< Host -> Host */
+	cudaMemcpyHostToDevice = 1, /**< Host -> Device */
+	cudaMemcpyDeviceToHost = 2, /**< Device -> Host */
+	cudaMemcpyDeviceToDevice = 3, /**< Device -> Device */
+	cudaMemcpyDefault = 4 /**< Direction of the transfer is inferred from the pointer values. Requires unified virtual addressing */
+};
+```
+- `{c} dim3` : Matrix 연산에 효율적으로 활용할 수 있는 자료형
+```C
+dim3 dimBlock(16, 16);
+dim3 dimGrid((width + dimBlock.x - 1) / dimBlock.x, (height + dimBlock.y - 1) / dimBlock.y);
+// 연산에서 다음과 같이 활용됨. operation은 kernel function of cuda
+operation<<<dimBlock, dimGrid>>>(..args);
+```
+
 ### 예제 및 문제
 
 #### 예제 1) vector_add는 두 개의 벡터를 더하는 문제입니다. 이를 실행하기 위한 코드는 다음과 같습니다.

@@ -9,24 +9,24 @@ cssclasses:
 ### **Day 1: 환경 설정 및 기본 개념 학습**
 #### **목표: 학습 환경 설정 및 CUDA와 PyTorch 기본 개념 이해**
 - **설치 및 환경 설정**
-    - [ ] Visual Studio Code, CUDA Toolkit, PyTorch, CMake 설치 및 설정
-    - [ ] VSCode 확장 프로그램 설치 (C/C++, CUDA C++, Code Runner 등)
+    - [x] Visual Studio Code, CUDA Toolkit, PyTorch, CMake 설치 및 설정
+    - [x] VSCode 확장 프로그램 설치 (C/C++, CUDA C++, Code Runner 등)
 - **기본 개념 학습**
-    - [ ] CUDA 개념 이해: GPU 아키텍처, CUDA 프로그래밍 모델
-    - [ ] PyTorch 기본 개념 이해: Tensor, Autograd, Neural Networks
+    - [x] CUDA 개념 이해: GPU 아키텍처, CUDA 프로그래밍 모델
+    - [x] PyTorch 기본 개념 이해: Tensor, Autograd, Neural Networks
 **활동:**
-- [ ] NVIDIA CUDA Programming Guide 읽기
-- [ ] PyTorch 공식 문서의 시작하기 튜토리얼 완료
+- [x] NVIDIA CUDA Programming Guide 읽기
+- [x] PyTorch 공식 문서의 시작하기 튜토리얼 완료
 
 ### **Day 2: CUDA 프로그래밍 기본 학습**
 #### **목표: CUDA 프로그래밍의 기초 이해 및 간단한 CUDA 커널 작성**
 - **CUDA 프로그래밍**
-    - [ ] CUDA 프로그래밍 모델 이해 (스레드, 블록, 그리드)
-    - [ ] 메모리 관리 (Global, Shared, Constant, Texture Memory)
-    - [ ] 간단한 CUDA 커널 작성 및 실행
+    - [x] CUDA 프로그래밍 모델 이해 (스레드, 블록, 그리드)
+    - [x] 메모리 관리 (Global, Shared, Constant, Texture Memory)
+    - [x] 간단한 CUDA 커널 작성 및 실행
 **활동:**
-- [ ] 간단한 벡터 덧셈 CUDA 커널 작성
-- [ ] PyTorch CUDA Tensors 사용해보기
+- [x] 간단한 벡터 덧셈 CUDA 커널 작성
+- [x] PyTorch CUDA Tensors 사용해보기
 ### **Day 3: PyTorch와 C++/CUDA 통합**
 #### **목표: PyTorch C++ 확장 (torch/extension.h) 사용법 학습**
 - **PyTorch C++ 확장**
