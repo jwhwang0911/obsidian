@@ -4,19 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "b6a30c8992bf3a87",
+        "id": "b561417d75b3636a",
         "type": "tabs",
         "children": [
           {
-            "id": "b83d621fd78b6578",
+            "id": "1ec925c476b739f4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Cuda/Day 3..md",
+                "file": "PhotoRealistic-Rendering/Study Plan.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Study Plan"
             }
           }
         ]
@@ -39,7 +41,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +58,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,18 +68,23 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           },
           {
-            "id": "4b448701133cdc56",
+            "id": "bb7e185bbdfd7257",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
-              "state": {}
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Spaces"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -93,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Cuda/Day 3..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -101,7 +111,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
             }
           },
           {
@@ -110,10 +122,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Cuda/Day 3..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
             }
           },
           {
@@ -124,7 +137,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -132,9 +147,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Cuda/Day 3..md"
-              }
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
             }
           }
         ],
@@ -155,23 +170,31 @@
       "workspaces:Manage workspace layouts": false
     }
   },
-  "active": "b83d621fd78b6578",
+  "active": "1ec925c476b739f4",
   "lastOpenFiles": [
-    "Cuda/Plan.md",
-    "Cuda/Day 3..md",
-    "Cuda/Day 2..md",
-    "Realtime_Denoising/Real-time Neural Radiance Cahcing for Path Tracing.md",
-    "Diffusion/DDRM Code Review.md",
-    "Cuda/Day 1. .md",
-    "Diffusion/Graphics Diffusion usage.md",
-    "Statistics/Attention is all you need.md",
-    "Statistics/Generalized Least Squares Method.md",
-    "Statistics/Kernelized Attention.md",
-    "Statistics/Quasi - Monte Carlo Sampling.md",
-    "Cuda",
+    "PhotoRealistic-Rendering/Study Plan.md",
+    "PhotoRealistic-Rendering/PhotoRealistic-Rendering.md",
+    "PhotoRealistic-Rendering",
+    "Untitled.md",
+    "Rendering_Core/Regression based Monte Carlo Integration.md",
     "Paper.md",
     "Spaces",
     "Research/Research.md",
+    "Realtime_Denoising/Real-time Neural Radiance Cahcing for Path Tracing.md",
+    "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
+    "Research/Scene Conversion.md",
+    "Research/Denoising correlated estimates.md",
+    "Cuda/Day 3..md",
+    "Attention/Kernelized Attention.md",
+    "Attention/Quasi - Monte Carlo Sampling.md",
+    "Attention/Attention is all you need.md",
+    "Attention/Generalized Least Squares Method.md",
+    "Cuda/Day 2..md",
+    "Diffusion/DDRM Code Review.md",
+    "Diffusion/Graphics Diffusion usage.md",
+    "Cuda/Plan.md",
+    "Cuda/Day 1. .md",
+    "Cuda",
     "Vision/Denoising Diffusion Probabilistic Model.md",
     "Research",
     "Working process.md",
@@ -182,25 +205,17 @@
     "Offline_Denoising/Denoising Monte Carlo Renders With Diffusion Models.md",
     "assets/image_20240322170201.png",
     "Realtime_Denoising/test.md",
-    "Realtime_Denoising/Realtime_Denoising.md",
-    "Rendering_Core/Recent Advances in Adaptive Sampling and Reconstruction for Monte Carlo Rendering.md",
     "Vision",
     "assets/image_20240313155043.png",
-    "Attention.md",
     "assets/image_20240311111549.png",
     "assets/Pasted image 20240311111542.png",
     "Statistics/attention.png",
     "assets/스크린샷, 2024-03-11 11-07-56.png",
     "assets/Pasted image 20240311110838.png",
     "assets/Pasted image 20240311110802.png",
-    "[[.md",
-    "Gauss-Markov theroem.md",
-    "().md",
     "fonts",
-    "Statistics",
-    "Adaptive_Sapling.md",
+    "Attention",
     "Adaptive_Sapling",
-    "Rendering_Core/Adaptive_Sapling",
     "무제 파일.canvas"
   ]
 }
